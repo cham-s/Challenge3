@@ -22,6 +22,7 @@
 		0C388AFA21BDB02F000FC1CF /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C388AF021BDB02E000FC1CF /* nssl0034.jpg */; };
 		0C388AFB21BDB02F000FC1CF /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C388AF121BDB02E000FC1CF /* nssl0041.jpg */; };
 		0C388AFC21BDB02F000FC1CF /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C388AF221BDB02F000FC1CF /* nssl0033.jpg */; };
+		0C388AFE21BDB571000FC1CF /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C388AFD21BDB571000FC1CF /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		0C388AF021BDB02E000FC1CF /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		0C388AF121BDB02E000FC1CF /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
 		0C388AF221BDB02F000FC1CF /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		0C388AFD21BDB571000FC1CF /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		0C388ACB21BDAF25000FC1CF = {
 			isa = PBXGroup;
 			children = (
+				0C388AFD21BDB571000FC1CF /* ImageCell.swift */,
 				0C388AD621BDAF25000FC1CF /* Challenge3 */,
 				0C388AD521BDAF25000FC1CF /* Products */,
 			);
@@ -177,6 +180,7 @@
 			files = (
 				0C388ADA21BDAF25000FC1CF /* ViewController.swift in Sources */,
 				0C388AD821BDAF25000FC1CF /* AppDelegate.swift in Sources */,
+				0C388AFE21BDB571000FC1CF /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
