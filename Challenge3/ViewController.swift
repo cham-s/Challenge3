@@ -8,13 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UICollectionViewController {
+    
+    var images = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        images = items.filter { $0.hasSuffix("jpg") }
+        
+        print(images)
     }
-
-
+    
 }
 
